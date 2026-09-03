@@ -1,285 +1,128 @@
-<div align="center">
+# Rahul Hasalkar
 
-```text
-┌────────────────────────────────────────────────────────────────────────┐
-│  ____       _           _   _   _                 _ _                  │
-│ |  _ \ __ _| |__  _   _| | | | | | __ _ ___  __ _| | | ____ _ _ __     │
-│ | |_) / _` | '_ \| | | | | | |_| |/ _` / __|/ _` | | |/ / _` | '__|    │
-│ |  _ < (_| | | | | |_| | | |  _  | (_| \__ \ (_| | |   < (_| | |       │
-│ |_| \_\__,_|_| |_|\__,_|_| |_| |_|\__,_|___/\__,_|_|_|\_\__,_|_|       │
-│                                                                        │
-│ >> SYSTEM ARCHITECT // AI SYSTEMS & FULL-STACK ENGINEER // NODE v2.4 <<│
-└────────────────────────────────────────────────────────────────────────┘
-```
-
-<a href="https://github.com/Rahulhas">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2600&pause=1200&color=00FF66&background=0D111700&center=true&vCenter=true&width=720&lines=%3E+INITIALIZING+OPERATOR%3A+RAHUL+HASALKAR...;%3E+ACADEMIC_NODE%3A+MCA+%40+KLE+TECHNOLOGICAL+UNIVERSITY+%5B2025-2027%5D;%3E+SYSTEM_ROLE%3A+AI+SYSTEMS+%2B+FULL-STACK+ENGINEER;%3E+GEO_COORDS%3A+BAGALKOT%2C+KARNATAKA%2C+INDIA;%3E+STATUS%3A+ALL+SYSTEMS+NOMINAL+%2F%2F+READY_FOR_DEPLOYMENT" alt="Terminal Telemetry Stream" />
-</a>
+##### System Architect · AI Systems · Full-Stack Engineer
+📍 **MCA @ KLE Tech** · Bagalkot, Karnataka, IN
 
 <br/>
 
-[![Status: Online](https://img.shields.io/badge/SYS_STATUS-ONLINE%20%2F%2F%20NOMINAL-00FF66?style=for-the-badge&logo=statuspage&logoColor=0D1117&labelColor=0D1117)](https://github.com/Rahulhas)
-[![Clearance: MCA Candidate](https://img.shields.io/badge/CLEARANCE-MCA%20%2F%2F%20KLE%20TECH-00FF66?style=for-the-badge&logo=terminal&logoColor=00FF66&labelColor=0D1117)](https://github.com/Rahulhas)
-[![Coordinates: Bagalkot, IN](https://img.shields.io/badge/LOCATION-BAGALKOT%2C%20IN-00FF66?style=for-the-badge&logo=googlemaps&logoColor=00FF66&labelColor=0D1117)](https://maps.google.com/?q=Bagalkot,+Karnataka,+India)
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/COMMS_LINKEDIN-00FF66?style=for-the-badge&logo=linkedin&logoColor=0D1117&labelColor=0D1117)](https://linkedin.com/in/rahulhasalkar)
-[![LeetCode](https://img.shields.io/badge/DIAG_LEETCODE-00FF66?style=for-the-badge&logo=leetcode&logoColor=00FF66&labelColor=0D1117)](https://leetcode.com/Rahulhas)
-[![Email Terminal](https://img.shields.io/badge/ENCRYPTED_MAIL-00FF66?style=for-the-badge&logo=gmail&logoColor=00FF66&labelColor=0D1117)](mailto:rahulhasalkar.dev@gmail.com)
-[![Portfolio](https://img.shields.io/badge/WEB_PORTFOLIO-00FF66?style=for-the-badge&logo=safari&logoColor=00FF66&labelColor=0D1117)](https://github.com/Rahulhas)
-
-</div>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/rahulhasalkar)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=white)](https://leetcode.com/Rahulhas)
+[![Encrypted Mail](https://img.shields.io/badge/Encrypted_Mail-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:rahulhasalkar.dev@gmail.com)
+[![Web Portfolio](https://img.shields.io/badge/Web_Portfolio-181717?style=flat-square&logo=safari&logoColor=white)](https://github.com/Rahulhas)
 
 ---
 
-### 📡 `[01] // SYSTEM_MANIFEST`
+### 👨‍💻 Profile Summary
 
-```yaml
-# /sys/kernel/identity.conf
-[OPERATOR_SPECIFICATIONS]
-OPERATOR          : Rahul Hasalkar
-CODENAME          : @Rahulhas
-ENVIRONMENT_STATE : ACTIVE_RESEARCH_&_DEVELOPMENT
-CORE_DIRECTIVE    : Building resilient distributed backends, LLM agents & low-latency architectures.
-HOST_GEO          : Bagalkot, Karnataka, India [16.18° N, 75.69° E]
+I am a software engineer and graduate student specializing in **AI-driven architectures**, **distributed backend systems**, and **responsive modern web platforms**. Currently pursuing my **Master of Computer Applications (MCA)** at **KLE Technological University**, I bridge algorithmic problem solving with scalable production implementations.
 
-[ACADEMIC_TELEMETRY]
-ACTIVE_CLUSTER    : Master of Computer Applications (MCA)
-                    └── Institution : KLE Technological University
-                    └── Lifecycle   : 2025 ──> 2027
-FOUNDATION_CLUSTER: Bachelor of Computer Applications (BCA)
-                    └── Institution : BVVS Basaveshwar Science College
-
-[KERNEL_METRICS]
-RUNTIME_TARGETS   : Neuro-Symbolic AI, Fallback Detection, Microservices, Algorithm Optimization
-SHELL_PREFERENCE  : zsh / bash on Linux POSIX environment
-```
+- 🎓 **Education:** MCA at KLE Technological University (2025 – 2027) · BCA from BVVS Basaveshwar Science College
+- 🔭 **Core Focus:** Generative AI Agent Pipelines, Speech Analysis Heuristics, High-Concurrency APIs
+- 📍 **Location:** Bagalkot, Karnataka, India
+- 💬 **Ask me about:** Python, TypeScript, Full-Stack Architecture, FastAPI, Next.js, and Algorithmic Design
 
 ---
 
-### ⚡ `[02] // ACTIVE_SUBSYSTEMS`
+### 🚀 Active Projects
 
-```text
->> QUERYING DEPLOYED_PRODUCTION_UNITS...
->> 3 ACTIVE TARGETS FOUND IN REGISTRY:
-```
+#### 01. AI Debate Coach & Argument Strength Scorer
+*A full-stack dialectic platform that evaluates speech patterns, fallacious reasoning, and argument persuasion in real time.*
+- Analyzes speech cadences, fallacy occurrences, and rhetorical strength across Ethos, Pathos, and Logos vectors.
+- Incorporates automated fallback detection and low-latency response generation using Gemini 1.5 Flash.
+- **Tech Stack:**  
+  ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+  ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+  ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+  ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+  ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+  ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+  ![Google Gemini](https://img.shields.io/badge/Gemini_1.5_Flash-8E75C2?style=flat-square&logo=googlegemini&logoColor=white)
+  ![Uvicorn](https://img.shields.io/badge/Uvicorn-499848?style=flat-square&logo=gunicorn&logoColor=white)
 
-#### 🛡️ `SUBSYSTEM_01: AI Debate Coach & Argument Strength Scorer`
-> **Classification:** Full-Stack AI Dialectic Analysis Pipeline  
-> **Status:** `[● ONLINE]` `[LATENCY: 140ms]` `[INTELLIGENCE: GEMINI 1.5 FLASH]`
-- **Telemetry & Core Logic:** High-throughput engine assessing live rhetoric and speech patterns, detecting fallacious arguments, and computing ethos/pathos/logos dialectic scores with fallback mechanisms.
-- **Subsystem Stack:**
-  ![Python](https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=00FF66)
-  ![FastAPI](https://img.shields.io/badge/FastAPI-0D1117?style=flat-square&logo=fastapi&logoColor=00FF66)
-  ![Uvicorn](https://img.shields.io/badge/Uvicorn-0D1117?style=flat-square&logo=gunicorn&logoColor=00FF66)
-  ![Gemini Flash](https://img.shields.io/badge/Gemini_1.5_Flash-0D1117?style=flat-square&logo=googlegemini&logoColor=00FF66)
-  ![React](https://img.shields.io/badge/React-0D1117?style=flat-square&logo=react&logoColor=00FF66)
-  ![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=flat-square&logo=typescript&logoColor=00FF66)
-  ![Vite](https://img.shields.io/badge/Vite-0D1117?style=flat-square&logo=vite&logoColor=00FF66)
-  ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-0D1117?style=flat-square&logo=tailwindcss&logoColor=00FF66)
+#### 02. Fake Job Posting Detector
+*An AI-powered recruitment intelligence service dedicated to detecting employment scams and predatory postings.*
+- Implements fraud risk scoring, lexical pattern analysis, and automated red-flag classification.
+- Backed by an in-memory caching layer for rate limiting and resilient document persistence.
+- **Tech Stack:**  
+  ![Next.js](https://img.shields.io/badge/Next.js_14-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+  ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+  ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+  ![NextAuth](https://img.shields.io/badge/NextAuth-5A32A3?style=flat-square&logo=auth0&logoColor=white)
+  ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+  ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+  ![Google Gemini](https://img.shields.io/badge/Google_Gemini_API-8E75C2?style=flat-square&logo=googlegemini&logoColor=white)
 
-```text
-├── [ANALYZER] ──> Speech Pattern Extraction & Token Stream
-├── [DETECTOR] ──> Heuristic Fallback & Cognitive Bias Scanner
-└── [EVALUATOR] ──> Ethos · Pathos · Logos Tri-Factor Scoring Vector
-```
-
----
-
-#### 🔍 `SUBSYSTEM_02: Fake Job Posting Detector`
-> **Classification:** AI Forensic Recruitment Scam Identification Engine  
-> **Status:** `[● ACTIVE_PIPELINE]` `[SECURITY_SHIELD: ARMED]` `[CACHE: REDIS_IN_MEMORY]`
-- **Telemetry & Core Logic:** End-to-end fraud scoring architecture parsing employment offers, executing lexical red-flag analysis, anomaly detection, and synthetic recruitment vector metrics.
-- **Subsystem Stack:**
-  ![Next.js 14](https://img.shields.io/badge/Next.js_14-0D1117?style=flat-square&logo=nextdotjs&logoColor=00FF66)
-  ![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=flat-square&logo=typescript&logoColor=00FF66)
-  ![NextAuth](https://img.shields.io/badge/NextAuth-0D1117?style=flat-square&logo=auth0&logoColor=00FF66)
-  ![MongoDB](https://img.shields.io/badge/MongoDB-0D1117?style=flat-square&logo=mongodb&logoColor=00FF66)
-  ![Redis](https://img.shields.io/badge/Redis-0D1117?style=flat-square&logo=redis&logoColor=00FF66)
-  ![Google Gemini API](https://img.shields.io/badge/Gemini_API-0D1117?style=flat-square&logo=googlegemini&logoColor=00FF66)
-  ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-0D1117?style=flat-square&logo=tailwindcss&logoColor=00FF66)
-
-```text
-├── [INGESTION] ──> Multi-Field Listing Parser & Canonicalizer
-├── [HEURISTIC] ──> Pattern Anomaly & Red-Flag Linguistic Evaluator
-└── [SECURITY]  ──> Redis Rate-Limiter & NextAuth Session Barrier
-```
+#### 03. Centralized Complaint Management System
+*A centralized enterprise platform designed for structured ticket lifecycles and role-based incident tracking.*
+- Features granular role-based access control (RBAC) separating administrative actions from user reports.
+- Comprehensive audit trails, ticket escalation mechanisms, and responsive operational status views.
+- **Tech Stack:**  
+  ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+  ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+  ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
 
 ---
 
-#### 🗄️ `SUBSYSTEM_03: Centralized Complaint Management System`
-> **Classification:** Enterprise Grievance Orchestration & RBAC Audit Grid  
-> **Status:** `[● STABLE_NODE]` `[INTEGRITY: 100%]` `[DATABASE: ACID_COMPLIANT]`
-- **Telemetry & Core Logic:** Granular enterprise workflow platform handling complaint lifecycles, real-time ticket escalation routing, role-based security barriers, and relational admin-user audits.
-- **Subsystem Stack:**
-  ![PHP](https://img.shields.io/badge/PHP_Core-0D1117?style=flat-square&logo=php&logoColor=00FF66)
-  ![MySQL](https://img.shields.io/badge/MySQL_Relational-0D1117?style=flat-square&logo=mysql&logoColor=00FF66)
-  ![JavaScript](https://img.shields.io/badge/JavaScript_ES6+-0D1117?style=flat-square&logo=javascript&logoColor=00FF66)
-  ![Bootstrap](https://img.shields.io/badge/Bootstrap-0D1117?style=flat-square&logo=bootstrap&logoColor=00FF66)
+### 🛠️ Tech Stack & Tools
 
-```text
-├── [AUTH_GATE] ──> Role-Based Access Control (Admin / Dispatcher / User)
-├── [LEDGER]    ──> Relational Transaction Log & Ticket State Machine
-└── [DISPATCH]  ──> Automated Notification Queue & Resolution Metrics
-```
+##### Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white)
 
----
+##### AI Systems & Data Intelligence
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google_Gemini_API-8E75C2?style=flat-square&logo=googlegemini&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![Algorithms](https://img.shields.io/badge/DSA_Logic-1E293B?style=flat-square&logo=codestream&logoColor=white)
 
-### 🛠️ `[03] // TECH_ARSENAL & HARDWARE_CAPABILITIES`
+##### Core Architecture & Frameworks
+![Next.js](https://img.shields.io/badge/Next.js_14-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
 
-```text
->> SCANNING DRIVERS & COMPILER PROTOCOLS...
->> CAPABILITIES MATRIX LOADED [ALL CATEGORIES VERIFIED]:
-```
-
-<table>
-<tr>
-<td width="25%" valign="top"><b>💻 KERNEL_LANGUAGES</b></td>
-<td width="75%">
-  <img src="https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=00FF66" alt="Python" />
-  <img src="https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=00FF66" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=00FF66" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Java-0D1117?style=for-the-badge&logo=openjdk&logoColor=00FF66" alt="Java" />
-  <img src="https://img.shields.io/badge/C%2B%2B-0D1117?style=for-the-badge&logo=cplusplus&logoColor=00FF66" alt="C++" />
-  <img src="https://img.shields.io/badge/C-0D1117?style=for-the-badge&logo=c&logoColor=00FF66" alt="C" />
-</td>
-</tr>
-
-<tr>
-<td width="25%" valign="top"><b>🧠 NEURAL_AI_&_DATA</b></td>
-<td width="75%">
-  <img src="https://img.shields.io/badge/PyTorch-0D1117?style=for-the-badge&logo=pytorch&logoColor=00FF66" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/Gemini_API-0D1117?style=for-the-badge&logo=googlegemini&logoColor=00FF66" alt="Gemini API" />
-  <img src="https://img.shields.io/badge/LangChain-0D1117?style=for-the-badge&logo=langchain&logoColor=00FF66" alt="LangChain" />
-  <img src="https://img.shields.io/badge/DSA_LOGIC-0D1117?style=for-the-badge&logo=codestream&logoColor=00FF66" alt="DSA Logic" />
-</td>
-</tr>
-
-<tr>
-<td width="25%" valign="top"><b>⚡ WEB_&_MICROSERVICES</b></td>
-<td width="75%">
-  <img src="https://img.shields.io/badge/Next.js_14-0D1117?style=for-the-badge&logo=nextdotjs&logoColor=00FF66" alt="Next.js 14" />
-  <img src="https://img.shields.io/badge/React-0D1117?style=for-the-badge&logo=react&logoColor=00FF66" alt="React" />
-  <img src="https://img.shields.io/badge/Vite-0D1117?style=for-the-badge&logo=vite&logoColor=00FF66" alt="Vite" />
-  <img src="https://img.shields.io/badge/FastAPI-0D1117?style=for-the-badge&logo=fastapi&logoColor=00FF66" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Flask-0D1117?style=for-the-badge&logo=flask&logoColor=00FF66" alt="Flask" />
-  <img src="https://img.shields.io/badge/PHP-0D1117?style=for-the-badge&logo=php&logoColor=00FF66" alt="PHP" />
-  <img src="https://img.shields.io/badge/TailwindCSS-0D1117?style=for-the-badge&logo=tailwindcss&logoColor=00FF66" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Bootstrap-0D1117?style=for-the-badge&logo=bootstrap&logoColor=00FF66" alt="Bootstrap" />
-</td>
-</tr>
-
-<tr>
-<td width="25%" valign="top"><b>🔒 INFRASTRUCTURE_&_SYS</b></td>
-<td width="75%">
-  <img src="https://img.shields.io/badge/Linux_Kernel-0D1117?style=for-the-badge&logo=linux&logoColor=00FF66" alt="Linux" />
-  <img src="https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=00FF66" alt="Docker" />
-  <img src="https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=00FF66" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=00FF66" alt="GitHub" />
-  <img src="https://img.shields.io/badge/MySQL-0D1117?style=for-the-badge&logo=mysql&logoColor=00FF66" alt="MySQL" />
-  <img src="https://img.shields.io/badge/MongoDB-0D1117?style=for-the-badge&logo=mongodb&logoColor=00FF66" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/Redis-0D1117?style=for-the-badge&logo=redis&logoColor=00FF66" alt="Redis" />
-</td>
-</tr>
-</table>
+##### Infrastructure, Databases & Tooling
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
 ---
 
-### 📊 `[04] // RUNTIME_TELEMETRY`
+### 📊 GitHub & Algorithmic Analytics
 
 <div align="center">
-
-```text
-┌────────────────────────────────────────────────────────────────────────┐
-│  GITHUB REPOSITORY METRICS · CORE DIAGNOSTICS · STATS TELEMETRY        │
-└────────────────────────────────────────────────────────────────────────┘
-```
-
-<a href="https://github.com/Rahulhas">
-  <img src="https://github-readme-stats.vercel.app/api?username=Rahulhas&show_icons=true&theme=matrix&hide_border=false&border_color=00FF66&bg_color=0D1117&title_color=00FF66&text_color=7CE38B&icon_color=00FF66" alt="Rahulhas's GitHub Runtime Stats" width="49%" />
-</a>
-<a href="https://github.com/Rahulhas">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rahulhas&layout=compact&theme=matrix&hide_border=false&border_color=00FF66&bg_color=0D1117&title_color=00FF66&text_color=7CE38B" alt="Top Languages Diagnostic" width="47%" />
-</a>
-
-<br/><br/>
-
-<a href="https://github.com/Rahulhas">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rahulhas&theme=matrix&hide_border=false&border=00FF66&background=0D1117&ring=00FF66&fire=00FF66&currStreakNum=00FF66&sideNums=7CE38B&sideLabels=7CE38B&dates=7CE38B" alt="Commit Streak Matrix" width="97%" />
-</a>
-
+  <a href="https://github.com/Rahulhas">
+    <img src="https://github-readme-stats.vercel.app/api?username=Rahulhas&show_icons=true&theme=tokyonight&hide_border=true" alt="Rahul's GitHub Stats" width="49%" />
+  </a>
+  <a href="https://github.com/Rahulhas">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rahulhas&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="47%" />
+  </a>
+  <br/><br/>
+  <a href="https://leetcode.com/Rahulhas" target="_blank">
+    <img src="https://leetcard.jacoblin.cool/Rahulhas?theme=tokyonight&font=Inter&ext=activity" alt="LeetCode Activity" width="97%" />
+  </a>
 </div>
 
 ---
 
-### 🧩 `[05] // ALGORITHMIC_MATRIX`
+### 📬 Connect & Collaborate
 
-<div align="center">
+Feel free to reach out for engineering opportunities, collaborative projects, or discussions on AI and software design.
 
-```text
-┌────────────────────────────────────────────────────────────────────────┐
-│  LEETCODE SYSTEM DIAGNOSTICS · PROBLEM SOLVING · DATA STRUCTURES       │
-└────────────────────────────────────────────────────────────────────────┘
-```
-
-<a href="https://leetcode.com/Rahulhas" target="_blank">
-  <img src="https://leetcard.jacoblin.cool/Rahulhas?theme=matrix&font=Fira%20Code&ext=activity" alt="LeetCode Diagnostics for Rahulhas" width="97%" />
-</a>
-
-</div>
-
----
-
-### 🧬 `[06] // NEURAL_CONTRIBUTION_STREAM`
-
-<div align="center">
-
-```text
->> EXECUTING AUTOMATED CONTRIBUTION GRID SNAKE INTERFACE...
->> HARVESTING COMMITS ACROSS REPOSITORY SPACES:
-```
-
-<br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rahulhas/Rahulhas/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rahulhas/Rahulhas/output/github-contribution-grid-snake.svg">
-  <img alt="GitHub Contribution Grid Snake Matrix Animation" src="https://raw.githubusercontent.com/Rahulhas/Rahulhas/output/github-contribution-grid-snake-dark.svg" width="100%">
-</picture>
-
-</div>
-
----
-
-### 📶 `[07] // COMMS_LINK & TRANSMISSION_DISPATCH`
-
-```text
->> INITIATING HANDSHAKE PROTOCOL WITH OPERATOR RAHUL HASALKAR:
->> SELECT SECURE COMMS PACKET:
-```
-
-```bash
-# DIRECT TRANSMISSION CHANNELS:
-$ ssh-keygen -t ed25519 -C "developer_handshake"
-$ curl -X POST https://api.rahulhasalkar.dev/comms \
-       -H "Authorization: Bearer OPEN_TO_OPPORTUNITIES" \
-       -d '{"status": "READY_TO_COLLABORATE"}'
-```
-
-<div align="center">
-
-| CHANNEL | DESTINATION | PROTOCOL |
-| :--- | :--- | :--- |
-| **💼 Professional Grid** | [linkedin.com/in/rahulhasalkar](https://linkedin.com/in/rahulhasalkar) | `ENCRYPTED_TCP` |
-| **⚡ Algorithmic Node** | [leetcode.com/Rahulhas](https://leetcode.com/Rahulhas) | `ACTIVE_STREAM` |
-| **📫 Transmission Direct** | [rahulhasalkar.dev@gmail.com](mailto:rahulhasalkar.dev@gmail.com) | `SMTP_TLS` |
-| **🌐 Digital Neural Hub** | [github.com/Rahulhas](https://github.com/Rahulhas) | `HTTPS_v3` |
-
-<br/>
-
-```text
-[SYSTEM_SESSION: TERMINATED_GRACEFULLY] · [BUFFER_INTEGRITY: 100%] · [KERNEL_UPTIME: 99.99%]
-```
-
-</div>
+- **LinkedIn:** [linkedin.com/in/rahulhasalkar](https://linkedin.com/in/rahulhasalkar)
+- **LeetCode:** [leetcode.com/Rahulhas](https://leetcode.com/Rahulhas)
+- **Email:** [rahulhasalkar.dev@gmail.com](mailto:rahulhasalkar.dev@gmail.com)
+- **GitHub:** [github.com/Rahulhas](https://github.com/Rahulhas)
