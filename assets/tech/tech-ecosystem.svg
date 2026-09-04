@@ -1,232 +1,189 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 460" width="100%" height="100%" fill="none">
   <defs>
+    <!-- Background: Sand Beige -->
     <linearGradient id="techBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#060914" />
-      <stop offset="50%" stop-color="#0A1329" />
-      <stop offset="100%" stop-color="#050813" />
+      <stop offset="0%" stop-color="#FBF7F2" />
+      <stop offset="50%" stop-color="#F4EFE6" />
+      <stop offset="100%" stop-color="#ECE4D8" />
     </linearGradient>
 
-    <linearGradient id="techGlass" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0F1C38" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#081024" stop-opacity="0.75" />
+    <!-- Dark Espresso for Cards -->
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#281F18" />
+      <stop offset="100%" stop-color="#1E1611" />
     </linearGradient>
-
-    <radialGradient id="centerHubGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.25" />
-      <stop offset="70%" stop-color="#0284C7" stop-opacity="0.06" />
-      <stop offset="100%" stop-color="#060914" stop-opacity="0" />
-    </radialGradient>
 
     <pattern id="techGridPattern" width="26" height="26" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="1" fill="#38BDF8" fill-opacity="0.06" />
+      <circle cx="1" cy="1" r="1" fill="#7A9A6D" fill-opacity="0.1" />
     </pattern>
 
-    <filter id="hubGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-
     <style>
-      .flow-pulse-1 {
+      .flow-pulse-1 {{
         stroke-dasharray: 6 12;
         animation: flowDash 10s linear infinite;
-      }
-      .flow-pulse-2 {
+      }}
+      .flow-pulse-2 {{
         stroke-dasharray: 6 12;
         animation: flowDashRev 12s linear infinite;
-      }
-      .hub-pulse {
-        animation: pulseHub 3s ease-in-out infinite alternate;
-      }
-      @keyframes flowDash {
-        0% { stroke-dashoffset: 180; }
-        100% { stroke-dashoffset: 0; }
-      }
-      @keyframes flowDashRev {
-        0% { stroke-dashoffset: 0; }
-        100% { stroke-dashoffset: 180; }
-      }
-      @keyframes pulseHub {
-        0% { opacity: 0.85; }
-        100% { opacity: 1; }
-      }
+      }}
+      @keyframes flowDash {{
+        0% {{ stroke-dashoffset: 180; }}
+        100% {{ stroke-dashoffset: 0; }}
+      }}
+      @keyframes flowDashRev {{
+        0% {{ stroke-dashoffset: 0; }}
+        100% {{ stroke-dashoffset: 180; }}
+      }}
     </style>
   </defs>
 
   <!-- Background -->
   <rect width="920" height="460" rx="18" fill="url(#techBg)" />
   <rect width="920" height="460" rx="18" fill="url(#techGridPattern)" />
-  <circle cx="460" cy="230" r="180" fill="url(#centerHubGlow)" />
-
-  <rect x="1" y="1" width="918" height="458" rx="17" fill="none" stroke="#22D3EE" stroke-width="1" stroke-opacity="0.2" />
+  <rect x="1" y="1" width="918" height="458" rx="17" fill="none" stroke="#D8CEBD" stroke-width="1.2" />
 
   <!-- Section Header -->
   <g transform="translate(36, 24)">
-    <text x="0" y="12" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1.5">TECH_ECOSYSTEM // ARCHITECTURAL_GRAPH</text>
-    <text x="848" y="12" text-anchor="end" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="10.5" letter-spacing="1">TOPOLOGY: DISTRIBUTED_CORE</text>
+    <circle cx="4" cy="8" r="4" fill="#7A9A6D" />
+    <text x="16" y="12" fill="#2D231B" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="800" letter-spacing="1.5">TECH_ECOSYSTEM // ARCHITECTURAL_GRAPH</text>
+    <text x="848" y="12" text-anchor="end" fill="#7A685A" font-family="'JetBrains Mono', monospace" font-size="10.5" letter-spacing="1">TOPOLOGY: DISTRIBUTED_CORE</text>
   </g>
-  <line x1="36" y1="44" x2="884" y2="44" stroke="#22D3EE" stroke-width="0.6" stroke-opacity="0.15" />
+  <line x1="36" y1="44" x2="884" y2="44" stroke="#D5C8B8" stroke-width="1" />
 
   <!-- Visual Connections (Curved Lines from Center to 4 Quadrants) -->
   <!-- Top Left: AI / CODE -->
-  <path d="M 370 200 C 300 180 260 140 210 130" fill="none" stroke="#1E293B" stroke-width="2" />
-  <path d="M 370 200 C 300 180 260 140 210 130" fill="none" stroke="#22D3EE" stroke-width="1.5" stroke-opacity="0.6" class="flow-pulse-1" />
+  <path d="M 370 200 C 300 180 260 140 210 130" fill="none" stroke="#D1C4B2" stroke-width="2.5" />
+  <path d="M 370 200 C 300 180 260 140 210 130" fill="none" stroke="#7A9A6D" stroke-width="1.8" class="flow-pulse-1" />
 
   <!-- Top Right: WEB / UI -->
-  <path d="M 550 200 C 620 180 660 140 710 130" fill="none" stroke="#1E293B" stroke-width="2" />
-  <path d="M 550 200 C 620 180 660 140 710 130" fill="none" stroke="#38BDF8" stroke-width="1.5" stroke-opacity="0.6" class="flow-pulse-2" />
+  <path d="M 550 200 C 620 180 660 140 710 130" fill="none" stroke="#D1C4B2" stroke-width="2.5" />
+  <path d="M 550 200 C 620 180 660 140 710 130" fill="none" stroke="#7A9A6D" stroke-width="1.8" class="flow-pulse-2" />
 
   <!-- Bottom Left: DATA -->
-  <path d="M 370 260 C 300 280 260 320 210 330" fill="none" stroke="#1E293B" stroke-width="2" />
-  <path d="M 370 260 C 300 280 260 320 210 330" fill="none" stroke="#22D3EE" stroke-width="1.5" stroke-opacity="0.6" class="flow-pulse-2" />
+  <path d="M 370 260 C 300 280 260 320 210 330" fill="none" stroke="#D1C4B2" stroke-width="2.5" />
+  <path d="M 370 260 C 300 280 260 320 210 330" fill="none" stroke="#7A9A6D" stroke-width="1.8" class="flow-pulse-2" />
 
   <!-- Bottom Right: ENGINEERING -->
-  <path d="M 550 260 C 620 280 660 320 710 330" fill="none" stroke="#1E293B" stroke-width="2" />
-  <path d="M 550 260 C 620 280 660 320 710 330" fill="none" stroke="#38BDF8" stroke-width="1.5" stroke-opacity="0.6" class="flow-pulse-1" />
+  <path d="M 550 260 C 620 280 660 320 710 330" fill="none" stroke="#D1C4B2" stroke-width="2.5" />
+  <path d="M 550 260 C 620 280 660 320 710 330" fill="none" stroke="#7A9A6D" stroke-width="1.8" class="flow-pulse-1" />
 
   <!-- ==================== CENTRAL NODE: RAHUL.DEV / AI + FULL-STACK ==================== -->
-  <g transform="translate(360, 165)" class="hub-pulse">
-    <!-- Hub Card -->
-    <rect width="200" height="130" rx="16" fill="url(#techGlass)" stroke="#22D3EE" stroke-width="1.5" stroke-opacity="0.6" filter="url(#hubGlow)" />
-    <!-- Reticles -->
-    <path d="M 4 16 L 4 4 L 16 4" fill="none" stroke="#22D3EE" stroke-width="2" />
-    <path d="M 196 16 L 196 4 L 184 4" fill="none" stroke="#22D3EE" stroke-width="2" />
-    <path d="M 4 114 L 4 126 L 16 126" fill="none" stroke="#22D3EE" stroke-width="2" />
-    <path d="M 196 114 L 196 126 L 184 126" fill="none" stroke="#22D3EE" stroke-width="2" />
+  <g transform="translate(360, 165)">
+    <!-- Hub Card: Espresso Brown with Sage Green Border -->
+    <rect width="200" height="130" rx="16" fill="url(#cardBg)" stroke="#7A9A6D" stroke-width="1.8" />
 
-    <!-- Center Icon / Indicator -->
-    <circle cx="100" cy="36" r="14" fill="#0EA5E9" fill-opacity="0.2" stroke="#22D3EE" stroke-width="1.2" />
-    <circle cx="100" cy="36" r="5" fill="#22D3EE" />
+    <!-- Center Icon / Emblem -->
+    <circle cx="100" cy="36" r="14" fill="#384E31" stroke="#88A57B" stroke-width="1.2" />
+    <text x="100" y="40" text-anchor="middle" fill="#C5DAC0" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="800">&lt;/&gt;</text>
 
-    <text x="100" y="70" text-anchor="middle" fill="#FFFFFF" font-family="'JetBrains Mono', sans-serif" font-size="15" font-weight="800" letter-spacing="1">RAHUL.DEV</text>
-    <rect x="25" y="80" width="150" height="22" rx="4" fill="#0284C7" fill-opacity="0.2" stroke="#38BDF8" stroke-width="0.6" stroke-opacity="0.5" />
-    <text x="100" y="95" text-anchor="middle" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="700" letter-spacing="0.5">AI + FULL-STACK</text>
-    <text x="100" y="118" text-anchor="middle" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="8.5" letter-spacing="1">CENTRAL_NEXUS</text>
+    <text x="100" y="70" text-anchor="middle" fill="#F6F1EA" font-family="'JetBrains Mono', sans-serif" font-size="15" font-weight="800" letter-spacing="1">RAHUL.DEV</text>
+    <rect x="25" y="80" width="150" height="22" rx="4" fill="#3D5036" stroke="#7A9A6D" stroke-width="0.8" />
+    <text x="100" y="95" text-anchor="middle" fill="#D3E5CF" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="700" letter-spacing="0.5">AI + FULL-STACK</text>
+    <text x="100" y="118" text-anchor="middle" fill="#887668" font-family="'JetBrains Mono', monospace" font-size="8.5" letter-spacing="1">CENTRAL_NEXUS</text>
   </g>
 
   <!-- ==================== QUADRANT 1: AI / CODE ==================== -->
   <g transform="translate(40, 65)">
-    <rect width="220" height="135" rx="12" fill="url(#techGlass)" stroke="#22D3EE" stroke-width="0.8" stroke-opacity="0.4" />
-    <!-- Header -->
-    <rect x="12" y="12" width="90" height="22" rx="4" fill="#0284C7" fill-opacity="0.2" stroke="#22D3EE" stroke-width="0.6" stroke-opacity="0.4" />
-    <text x="20" y="27" fill="#22D3EE" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">AI / CODE</text>
-    <circle cx="196" cy="23" r="4" fill="#10B981" />
+    <rect width="220" height="135" rx="12" fill="url(#cardBg)" stroke="#4A3A2F" stroke-width="1" />
+    <text x="18" y="27" fill="#C5DAC0" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">Languages</text>
+    <circle cx="196" cy="23" r="4" fill="#7A9A6D" />
 
-    <!-- Badges -->
     <!-- Python -->
     <g transform="translate(16, 46)">
-      <rect width="188" height="32" rx="6" fill="#0B132B" stroke="#38BDF8" stroke-width="0.5" stroke-opacity="0.3" />
-      <circle cx="18" cy="16" r="3" fill="#38BDF8" />
-      <text x="32" y="20" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">Python</text>
-      <text x="172" y="20" text-anchor="end" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="9">AI / LLMs</text>
+      <rect width="188" height="32" rx="6" fill="#1C1510" stroke="#3E2E23" stroke-width="0.8" />
+      <circle cx="18" cy="16" r="3.5" fill="#7A9A6D" />
+      <text x="32" y="20" fill="#F6F1EA" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">Python</text>
+      <text x="172" y="20" text-anchor="end" fill="#887668" font-family="'JetBrains Mono', monospace" font-size="9">AI / LLMs</text>
     </g>
 
     <!-- Java -->
     <g transform="translate(16, 86)">
-      <rect width="188" height="32" rx="6" fill="#0B132B" stroke="#38BDF8" stroke-width="0.5" stroke-opacity="0.3" />
-      <circle cx="18" cy="16" r="3" fill="#F59E0B" />
-      <text x="32" y="20" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">Java</text>
-      <text x="172" y="20" text-anchor="end" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="9">OOP / Core</text>
+      <rect width="188" height="32" rx="6" fill="#1C1510" stroke="#3E2E23" stroke-width="0.8" />
+      <circle cx="18" cy="16" r="3.5" fill="#E8B04C" />
+      <text x="32" y="20" fill="#F6F1EA" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">Java</text>
+      <text x="172" y="20" text-anchor="end" fill="#887668" font-family="'JetBrains Mono', monospace" font-size="9">OOP / Core</text>
     </g>
   </g>
 
   <!-- ==================== QUADRANT 2: WEB / UI ==================== -->
   <g transform="translate(660, 65)">
-    <rect width="220" height="155" rx="12" fill="url(#techGlass)" stroke="#38BDF8" stroke-width="0.8" stroke-opacity="0.4" />
-    <!-- Header -->
-    <rect x="12" y="12" width="90" height="22" rx="4" fill="#0284C7" fill-opacity="0.2" stroke="#38BDF8" stroke-width="0.6" stroke-opacity="0.4" />
-    <text x="20" y="27" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">WEB / UI</text>
-    <circle cx="196" cy="23" r="4" fill="#38BDF8" />
+    <rect width="220" height="155" rx="12" fill="url(#cardBg)" stroke="#4A3A2F" stroke-width="1" />
+    <text x="18" y="27" fill="#C5DAC0" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">Frameworks</text>
+    <circle cx="196" cy="23" r="4" fill="#7A9A6D" />
 
-    <!-- Badges -->
     <!-- TypeScript -->
     <g transform="translate(16, 44)">
-      <rect width="188" height="30" rx="6" fill="#0B132B" stroke="#38BDF8" stroke-width="0.5" stroke-opacity="0.3" />
-      <circle cx="18" cy="15" r="3" fill="#38BDF8" />
-      <text x="32" y="19" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="600">TypeScript</text>
+      <rect width="188" height="30" rx="6" fill="#1C1510" stroke="#3E2E23" stroke-width="0.8" />
+      <circle cx="18" cy="15" r="3.5" fill="#88A57B" />
+      <text x="32" y="19" fill="#F6F1EA" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="600">TypeScript</text>
     </g>
 
     <!-- HTML -->
     <g transform="translate(16, 80)">
-      <rect width="188" height="30" rx="6" fill="#0B132B" stroke="#38BDF8" stroke-width="0.5" stroke-opacity="0.3" />
-      <circle cx="18" cy="15" r="3" fill="#E2E8F0" />
-      <text x="32" y="19" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="600">HTML</text>
+      <rect width="188" height="30" rx="6" fill="#1C1510" stroke="#3E2E23" stroke-width="0.8" />
+      <circle cx="18" cy="15" r="3.5" fill="#D5C8B8" />
+      <text x="32" y="19" fill="#F6F1EA" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="600">HTML</text>
     </g>
 
     <!-- Tailwind CSS -->
     <g transform="translate(16, 116)">
-      <rect width="188" height="30" rx="6" fill="#0B132B" stroke="#38BDF8" stroke-width="0.5" stroke-opacity="0.3" />
-      <circle cx="18" cy="15" r="3" fill="#22D3EE" />
-      <text x="32" y="19" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="600">Tailwind CSS</text>
+      <rect width="188" height="30" rx="6" fill="#1C1510" stroke="#3E2E23" stroke-width="0.8" />
+      <circle cx="18" cy="15" r="3.5" fill="#7A9A6D" />
+      <text x="32" y="19" fill="#F6F1EA" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="600">Tailwind CSS</text>
     </g>
   </g>
 
   <!-- ==================== QUADRANT 3: DATA ==================== -->
   <g transform="translate(40, 265)">
-    <rect width="220" height="145" rx="12" fill="url(#techGlass)" stroke="#22D3EE" stroke-width="0.8" stroke-opacity="0.4" />
-    <!-- Header -->
-    <rect x="12" y="12" width="75" height="22" rx="4" fill="#0284C7" fill-opacity="0.2" stroke="#22D3EE" stroke-width="0.6" stroke-opacity="0.4" />
-    <text x="20" y="27" fill="#22D3EE" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">DATA</text>
-    <circle cx="196" cy="23" r="4" fill="#38BDF8" />
+    <rect width="220" height="145" rx="12" fill="url(#cardBg)" stroke="#4A3A2F" stroke-width="1" />
+    <text x="18" y="27" fill="#C5DAC0" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">Databases</text>
+    <circle cx="196" cy="23" r="4" fill="#7A9A6D" />
 
-    <!-- Badges -->
     <!-- MySQL -->
     <g transform="translate(16, 48)">
-      <rect width="188" height="34" rx="6" fill="#0B132B" stroke="#38BDF8" stroke-width="0.5" stroke-opacity="0.3" />
-      <circle cx="18" cy="17" r="3" fill="#0EA5E9" />
-      <text x="32" y="21" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">MySQL</text>
-      <text x="172" y="21" text-anchor="end" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="9">Relational</text>
+      <rect width="188" height="34" rx="6" fill="#1C1510" stroke="#3E2E23" stroke-width="0.8" />
+      <circle cx="18" cy="17" r="3.5" fill="#7A9A6D" />
+      <text x="32" y="21" fill="#F6F1EA" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">MySQL</text>
+      <text x="172" y="21" text-anchor="end" fill="#887668" font-family="'JetBrains Mono', monospace" font-size="9">Relational</text>
     </g>
 
     <!-- DBMS -->
     <g transform="translate(16, 92)">
-      <rect width="188" height="34" rx="6" fill="#0B132B" stroke="#38BDF8" stroke-width="0.5" stroke-opacity="0.3" />
-      <circle cx="18" cy="17" r="3" fill="#22D3EE" />
-      <text x="32" y="21" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">DBMS</text>
-      <text x="172" y="21" text-anchor="end" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="9">Query Opt</text>
+      <rect width="188" height="34" rx="6" fill="#1C1510" stroke="#3E2E23" stroke-width="0.8" />
+      <circle cx="18" cy="17" r="3.5" fill="#88A57B" />
+      <text x="32" y="21" fill="#F6F1EA" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">DBMS</text>
+      <text x="172" y="21" text-anchor="end" fill="#887668" font-family="'JetBrains Mono', monospace" font-size="9">Normalized</text>
     </g>
   </g>
 
   <!-- ==================== QUADRANT 4: ENGINEERING ==================== -->
   <g transform="translate(660, 265)">
-    <rect width="220" height="155" rx="12" fill="url(#techGlass)" stroke="#38BDF8" stroke-width="0.8" stroke-opacity="0.4" />
-    <!-- Header -->
-    <rect x="12" y="12" width="115" height="22" rx="4" fill="#0284C7" fill-opacity="0.2" stroke="#38BDF8" stroke-width="0.6" stroke-opacity="0.4" />
-    <text x="20" y="27" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">ENGINEERING</text>
-    <circle cx="196" cy="23" r="4" fill="#22D3EE" />
+    <rect width="220" height="155" rx="12" fill="url(#cardBg)" stroke="#4A3A2F" stroke-width="1" />
+    <text x="18" y="27" fill="#C5DAC0" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">Tools</text>
+    <circle cx="196" cy="23" r="4" fill="#7A9A6D" />
 
-    <!-- Badges -->
     <!-- Git -->
     <g transform="translate(16, 44)">
-      <rect width="188" height="30" rx="6" fill="#0B132B" stroke="#38BDF8" stroke-width="0.5" stroke-opacity="0.3" />
-      <circle cx="18" cy="15" r="3" fill="#F43F5E" />
-      <text x="32" y="19" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="600">Git</text>
-      <text x="172" y="19" text-anchor="end" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="8.5">VCS</text>
+      <rect width="188" height="30" rx="6" fill="#1C1510" stroke="#3E2E23" stroke-width="0.8" />
+      <circle cx="18" cy="15" r="3.5" fill="#E26D5C" />
+      <text x="32" y="19" fill="#F6F1EA" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="600">Git</text>
+      <text x="172" y="19" text-anchor="end" fill="#887668" font-family="'JetBrains Mono', monospace" font-size="8.5">VCS</text>
     </g>
 
     <!-- DSA -->
     <g transform="translate(16, 80)">
-      <rect width="188" height="30" rx="6" fill="#0B132B" stroke="#38BDF8" stroke-width="0.5" stroke-opacity="0.3" />
-      <circle cx="18" cy="15" r="3" fill="#10B981" />
-      <text x="32" y="19" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="600">DSA</text>
-      <text x="172" y="19" text-anchor="end" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="8.5">Algorithms</text>
+      <rect width="188" height="30" rx="6" fill="#1C1510" stroke="#3E2E23" stroke-width="0.8" />
+      <circle cx="18" cy="15" r="3.5" fill="#7A9A6D" />
+      <text x="32" y="19" fill="#F6F1EA" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="600">DSA</text>
+      <text x="172" y="19" text-anchor="end" fill="#887668" font-family="'JetBrains Mono', monospace" font-size="8.5">Algorithms</text>
     </g>
 
     <!-- SDLC -->
     <g transform="translate(16, 116)">
-      <rect width="188" height="30" rx="6" fill="#0B132B" stroke="#38BDF8" stroke-width="0.5" stroke-opacity="0.3" />
-      <circle cx="18" cy="15" r="3" fill="#38BDF8" />
-      <text x="32" y="19" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="600">SDLC</text>
-      <text x="172" y="19" text-anchor="end" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="8.5">Lifecycle</text>
+      <rect width="188" height="30" rx="6" fill="#1C1510" stroke="#3E2E23" stroke-width="0.8" />
+      <circle cx="18" cy="15" r="3.5" fill="#88A57B" />
+      <text x="32" y="19" fill="#F6F1EA" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="600">SDLC</text>
+      <text x="172" y="19" text-anchor="end" fill="#887668" font-family="'JetBrains Mono', monospace" font-size="8.5">Architecture</text>
     </g>
   </g>
-
-  <!-- Corner Brackets -->
-  <path d="M 2 20 L 2 2 L 20 2" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" />
-  <path d="M 918 20 L 918 2 L 900 2" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" />
-  <path d="M 2 440 L 2 458 L 20 458" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" />
-  <path d="M 918 440 L 918 458 L 900 458" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" />
 </svg>

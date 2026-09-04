@@ -1,142 +1,110 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 320" width="100%" height="100%" fill="none">
   <defs>
-    <linearGradient id="debateBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#060A16" />
-      <stop offset="60%" stop-color="#0A142E" />
-      <stop offset="100%" stop-color="#050813" />
+    <linearGradient id="debBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBF7F2" />
+      <stop offset="50%" stop-color="#F4EFE6" />
+      <stop offset="100%" stop-color="#ECE3D7" />
     </linearGradient>
 
-    <linearGradient id="debateGlass" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0E1C38" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#081124" stop-opacity="0.7" />
+    <linearGradient id="debHud" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#241B15" />
+      <stop offset="100%" stop-color="#1B140F" />
     </linearGradient>
-
-    <radialGradient id="debateGlow" cx="85%" cy="30%" r="50%">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.14" />
-      <stop offset="100%" stop-color="#060A16" stop-opacity="0" />
-    </radialGradient>
 
     <pattern id="debGrid" width="22" height="22" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="0.8" fill="#38BDF8" fill-opacity="0.06" />
+      <circle cx="1" cy="1" r="0.8" fill="#7A9A6D" fill-opacity="0.1" />
     </pattern>
-
-    <style>
-      .blink-deb {
-        animation: blinkD 2.5s infinite ease-in-out;
-      }
-      @keyframes blinkD {
-        0%, 100% { opacity: 1; }
-        50% { opacity: 0.3; }
-      }
-    </style>
   </defs>
 
-  <rect width="860" height="320" rx="14" fill="url(#debateBg)" />
-  <rect width="860" height="320" rx="14" fill="url(#debateGlow)" />
+  <rect width="860" height="320" rx="14" fill="url(#debBg)" />
   <rect width="860" height="320" rx="14" fill="url(#debGrid)" />
+  <rect x="1" y="1" width="858" height="318" rx="13" fill="none" stroke="#D8CEBD" stroke-width="1.2" />
 
-  <rect x="1" y="1" width="858" height="318" rx="13" fill="none" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.25" />
-
-  <!-- Header -->
+  <!-- Top Bar -->
   <g transform="translate(28, 20)">
-    <rect width="135" height="22" rx="4" fill="#0284C7" fill-opacity="0.2" stroke="#38BDF8" stroke-width="0.6" stroke-opacity="0.5" />
-    <circle cx="10" cy="11" r="3" fill="#38BDF8" class="blink-deb" />
-    <text x="18" y="15" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">SUPPORTING_PROJECT // 02</text>
-    <text x="150" y="15" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="10" letter-spacing="1">DIALECTIC_REASONING_ENGINE</text>
-    <text x="804" y="15" text-anchor="end" fill="#22D3EE" font-family="'JetBrains Mono', monospace" font-size="10">● GEMINI 1.5 FLASH</text>
+    <text x="0" y="15" fill="#7A685A" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">📁 RAHULHAS / AI-DEBATE-COACH</text>
+    <rect x="235" y="2" width="60" height="18" rx="4" fill="#E4EDE0" stroke="#7A9A6D" stroke-width="0.8" />
+    <text x="265" y="15" text-anchor="middle" fill="#3D5434" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">Public</text>
+
+    <text x="804" y="15" text-anchor="end" fill="#5F8050" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="700">● GEMINI 1.5 FLASH</text>
   </g>
-  <line x1="28" y1="46" x2="832" y2="46" stroke="#38BDF8" stroke-width="0.6" stroke-opacity="0.2" />
+  <line x1="28" y1="46" x2="832" y2="46" stroke="#D5C8B8" stroke-width="1" />
 
-  <!-- LEFT: Title, Description, Verified Stack -->
+  <!-- LEFT: Title, Description, Stack -->
   <g transform="translate(28, 62)">
-    <text x="0" y="22" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800">AI Debate Coach</text>
-    <text x="0" y="42" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">Real-time dialectic platform evaluating speech patterns, rhetorical logic, and persuasion.</text>
+    <text x="0" y="22" fill="#231A14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800">AI Debate Coach</text>
+    <text x="0" y="42" fill="#5E4E42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5">Real-time debate partner with AI evaluating rhetoric, speech, and persuasion.</text>
 
-    <!-- Verified Tech Stack Badges -->
-    <g transform="translate(0, 58)">
-      <text x="0" y="12" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="9.5" letter-spacing="1">VERIFIED_STACK:</text>
-      <g transform="translate(0, 20)">
-        <!-- Row 1 -->
-        <rect x="0" y="0" width="70" height="22" rx="4" fill="#0B132B" stroke="#22D3EE" stroke-width="0.5" stroke-opacity="0.4" />
-        <text x="8" y="15" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="10">React</text>
+    <!-- Verified Stack Badges -->
+    <g transform="translate(0, 56)">
+      <!-- Row 1 -->
+      <rect x="0" y="0" width="65" height="22" rx="4" fill="#E4EDE0" stroke="#7A9A6D" stroke-width="0.8" />
+      <text x="32" y="15" text-anchor="middle" fill="#3D5434" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600">NLP</text>
 
-        <rect x="76" y="0" width="55" height="22" rx="4" fill="#0B132B" stroke="#38BDF8" stroke-width="0.5" stroke-opacity="0.4" />
-        <text x="8" y="15" transform="translate(76, 0)" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="10">Vite</text>
+      <rect x="73" y="0" width="95" height="22" rx="4" fill="#E4EDE0" stroke="#7A9A6D" stroke-width="0.8" />
+      <text x="120" y="15" text-anchor="middle" fill="#3D5434" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600">Gemini AI</text>
 
-        <rect x="137" y="0" width="95" height="22" rx="4" fill="#0B132B" stroke="#22D3EE" stroke-width="0.5" stroke-opacity="0.4" />
-        <text x="8" y="15" transform="translate(137, 0)" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="10">Tailwind CSS</text>
+      <rect x="176" y="0" width="75" height="22" rx="4" fill="#E4EDE0" stroke="#7A9A6D" stroke-width="0.8" />
+      <text x="213" y="15" text-anchor="middle" fill="#3D5434" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600">Python</text>
 
-        <rect x="238" y="0" width="85" height="22" rx="4" fill="#0B132B" stroke="#38BDF8" stroke-width="0.5" stroke-opacity="0.4" />
-        <text x="8" y="15" transform="translate(238, 0)" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="10">TypeScript</text>
+      <rect x="259" y="0" width="65" height="22" rx="4" fill="#FAF6F0" stroke="#D8CEBD" stroke-width="0.8" />
+      <text x="291" y="15" text-anchor="middle" fill="#5A4A3E" font-family="'JetBrains Mono', monospace" font-size="10">React</text>
 
-        <!-- Row 2 -->
-        <rect x="0" y="28" width="75" height="22" rx="4" fill="#0B132B" stroke="#22D3EE" stroke-width="0.5" stroke-opacity="0.4" />
-        <text x="8" y="15" transform="translate(0, 28)" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="10">FastAPI</text>
+      <!-- Row 2 -->
+      <rect x="0" y="28" width="65" height="22" rx="4" fill="#FAF6F0" stroke="#D8CEBD" stroke-width="0.8" />
+      <text x="32" y="43" text-anchor="middle" fill="#5A4A3E" font-family="'JetBrains Mono', monospace" font-size="10">FastAPI</text>
 
-        <rect x="81" y="28" width="70" height="22" rx="4" fill="#0B132B" stroke="#38BDF8" stroke-width="0.5" stroke-opacity="0.4" />
-        <text x="8" y="15" transform="translate(81, 28)" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="10">Python</text>
+      <rect x="73" y="28" width="85" height="22" rx="4" fill="#FAF6F0" stroke="#D8CEBD" stroke-width="0.8" />
+      <text x="115" y="43" text-anchor="middle" fill="#5A4A3E" font-family="'JetBrains Mono', monospace" font-size="10">TypeScript</text>
 
-        <rect x="157" y="28" width="140" height="22" rx="4" fill="#0B132B" stroke="#22D3EE" stroke-width="0.5" stroke-opacity="0.5" />
-        <text x="8" y="15" transform="translate(157, 28)" fill="#67E8F9" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">Gemini 1.5 Flash</text>
-
-        <rect x="303" y="28" width="75" height="22" rx="4" fill="#0B132B" stroke="#38BDF8" stroke-width="0.5" stroke-opacity="0.4" />
-        <text x="8" y="15" transform="translate(303, 28)" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="10">Uvicorn</text>
-      </g>
+      <rect x="166" y="28" width="95" height="22" rx="4" fill="#FAF6F0" stroke="#D8CEBD" stroke-width="0.8" />
+      <text x="213" y="43" text-anchor="middle" fill="#5A4A3E" font-family="'JetBrains Mono', monospace" font-size="10">Tailwind CSS</text>
     </g>
 
     <!-- Action Buttons -->
     <g transform="translate(0, 150)">
-      <rect width="115" height="28" rx="5" fill="#0284C7" fill-opacity="0.2" stroke="#22D3EE" stroke-width="0.8" stroke-opacity="0.5" />
-      <text x="57" y="18" text-anchor="middle" fill="#FFFFFF" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="600">&gt; SOURCE</text>
+      <rect width="115" height="28" rx="5" fill="#241B15" stroke="#4A392D" stroke-width="1" />
+      <text x="57" y="18" text-anchor="middle" fill="#F6F1EA" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="700">▶ View Code</text>
 
-      <rect x="125" y="0" width="115" height="28" rx="5" fill="#0F172A" stroke="#38BDF8" stroke-width="0.6" stroke-opacity="0.3" />
-      <text x="182" y="18" text-anchor="middle" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="600">&gt; DOCS</text>
+      <rect x="125" y="0" width="115" height="28" rx="5" fill="#EFE8DD" stroke="#88A57B" stroke-width="1" />
+      <text x="182" y="18" text-anchor="middle" fill="#3D5434" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="700">☁ Live Demo</text>
     </g>
   </g>
 
   <!-- RIGHT: Reasoning Vectors HUD -->
   <g transform="translate(535, 62)">
-    <rect width="295" height="225" rx="10" fill="url(#debateGlass)" stroke="#22D3EE" stroke-width="0.6" stroke-opacity="0.3" />
-    <rect x="0" y="0" width="295" height="24" rx="10" fill="#0E1B38" />
-    <text x="12" y="16" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700">RHETORICAL_ANALYSIS // VECTORS</text>
-    <line x1="0" y1="24" x2="295" y2="24" stroke="#22D3EE" stroke-width="0.5" stroke-opacity="0.2" />
+    <rect width="295" height="225" rx="10" fill="url(#debHud)" stroke="#4A392D" stroke-width="1" />
+    <rect x="0" y="0" width="295" height="24" rx="10" fill="#1C1510" />
+    <text x="12" y="16" fill="#C5DAC0" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700">RHETORICAL_ANALYSIS // VECTORS</text>
+    <line x1="0" y1="24" x2="295" y2="24" stroke="#3D3027" stroke-width="0.8" />
 
     <!-- Vector 1: Logos -->
     <g transform="translate(16, 42)">
-      <text x="0" y="10" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600">LOGOS (Logic)</text>
-      <text x="260" y="10" text-anchor="end" fill="#22D3EE" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">92%</text>
-      <rect x="0" y="16" width="260" height="6" rx="2" fill="#1E293B" />
-      <rect x="0" y="16" width="240" height="6" rx="2" fill="#22D3EE" />
+      <text x="0" y="10" fill="#F6F1EA" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600">LOGOS (Logic)</text>
+      <text x="260" y="10" text-anchor="end" fill="#9DC28E" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">92%</text>
+      <rect x="0" y="16" width="260" height="6" rx="2" fill="#150F0A" />
+      <rect x="0" y="16" width="240" height="6" rx="2" fill="#7A9A6D" />
     </g>
 
     <!-- Vector 2: Ethos -->
     <g transform="translate(16, 78)">
-      <text x="0" y="10" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600">ETHOS (Credibility)</text>
-      <text x="260" y="10" text-anchor="end" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">88%</text>
-      <rect x="0" y="16" width="260" height="6" rx="2" fill="#1E293B" />
-      <rect x="0" y="16" width="228" height="6" rx="2" fill="#38BDF8" />
+      <text x="0" y="10" fill="#F6F1EA" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600">ETHOS (Credibility)</text>
+      <text x="260" y="10" text-anchor="end" fill="#88A57B" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">88%</text>
+      <rect x="0" y="16" width="260" height="6" rx="2" fill="#150F0A" />
+      <rect x="0" y="16" width="228" height="6" rx="2" fill="#88A57B" />
     </g>
 
     <!-- Vector 3: Pathos -->
     <g transform="translate(16, 114)">
-      <text x="0" y="10" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600">PATHOS (Emotion)</text>
-      <text x="260" y="10" text-anchor="end" fill="#67E8F9" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">81%</text>
-      <rect x="0" y="16" width="260" height="6" rx="2" fill="#1E293B" />
-      <rect x="0" y="16" width="210" height="6" rx="2" fill="#67E8F9" />
+      <text x="0" y="10" fill="#F6F1EA" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600">PATHOS (Emotion)</text>
+      <text x="260" y="10" text-anchor="end" fill="#B3CBB0" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">81%</text>
+      <rect x="0" y="16" width="260" height="6" rx="2" fill="#150F0A" />
+      <rect x="0" y="16" width="210" height="6" rx="2" fill="#5F8050" />
     </g>
 
-    <!-- Fallacy Detection Pill -->
-    <g transform="translate(16, 150)">
-      <rect width="260" height="36" rx="6" fill="#070D1A" stroke="#10B981" stroke-width="0.5" stroke-opacity="0.4" />
-      <circle cx="14" cy="18" r="3.5" fill="#10B981" />
-      <text x="26" y="16" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="8.5">FALLACY_CHECK:</text>
-      <text x="26" y="29" fill="#34D399" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700">0 CRITICAL FALLACIES DETECTED</text>
+    <!-- Bottom Tagline -->
+    <g transform="translate(16, 160)">
+      <text x="0" y="16" fill="#D5C8B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-style="italic">"Practice. Improve. Speak with confidence. 🌱"</text>
     </g>
   </g>
-
-  <!-- Corner Brackets -->
-  <path d="M 2 16 L 2 2 L 16 2" fill="none" stroke="#38BDF8" stroke-width="1.8" />
-  <path d="M 858 16 L 858 2 L 844 2" fill="none" stroke="#38BDF8" stroke-width="1.8" />
-  <path d="M 2 304 L 2 318 L 16 318" fill="none" stroke="#38BDF8" stroke-width="1.8" />
-  <path d="M 858 304 L 858 318 L 844 318" fill="none" stroke="#38BDF8" stroke-width="1.8" />
 </svg>

@@ -1,7 +1,7 @@
 <!--
 ================================================================================
   RAHULHAS // REPOSITORY PROFILE CONFIGURATION & QUICK URL REPLACEMENT
-  Update your personal links and project repositories below:
+  THEME: Sand Beige + Espresso Brown + Sage Green 🌱
 ================================================================================
   [IDENTITY]
   NAME:                  Rahul Hasalkar
@@ -31,22 +31,22 @@
 
 <div align="center">
 
-<!-- HERO SECTION: AI COMMAND CENTER -->
-<img src="assets/hero/hero-command-center.svg" alt="Rahul Hasalkar - AI &amp; Full-Stack Developer Command Center" width="100%" />
+<!-- HERO SECTION: SAND BEIGE + ESPRESSO + SAGE GREEN -->
+<img src="assets/hero/hero-command-center.svg" alt="Rahul Hasalkar - AI &amp; Full-Stack Developer Portfolio" width="100%" />
 
 </div>
 
 <br/>
 
-### 🛰️ System Identity &amp; Overview
+### 👤 System Identity &amp; Overview
 
 ```
-USER_PROFILE // RAHUL HASALKAR
-ROLE         // AI + Full-Stack Developer
-TAGLINE      // Turning Ideas into Intelligent Products with AI & Full-Stack Development
+USER     / RAHUL_HASALKAR
+ROLE     / AI + Full-Stack Developer
+MISSION  / Build intelligent products with AI & Full-Stack Development
 ```
 
-I'm **Rahul**, an **AI and Full-Stack Developer** who enjoys turning ideas into intelligent, usable products through code, AI, and experimentation. Currently pursuing my **Master of Computer Applications (MCA)** at **KLE Technological University**, I focus on engineering end-to-end intelligent systems, reactive web interfaces, and robust backend pipelines.
+I'm **Rahul**, an **AI and Full-Stack Developer** who enjoys turning ideas into intelligent, usable products through code, AI, and experimentation. Currently pursuing my **Master of Computer Applications (MCA)** at **KLE Technological University**, I focus on engineering real-world software, exploring intelligent systems, and building solutions that make an impact.
 
 ---
 
@@ -61,28 +61,28 @@ I'm **Rahul**, an **AI and Full-Stack Developer** who enjoys turning ideas into 
 ### 🌐 Tech Ecosystem
 
 <div align="center">
-  <img src="assets/tech/tech-ecosystem.svg" alt="Rahul's Tech Ecosystem - AI, Web, Data, Engineering" width="100%" />
+  <img src="assets/tech/tech-ecosystem.svg" alt="Rahul's Tech Ecosystem - Languages, Frameworks, Databases, Tools" width="100%" />
 </div>
 
 <br/>
 
 <details>
-<summary><b>🔍 View Detailed Technology Breakdown</b></summary>
+<summary><b>🌱 View Detailed Technology Breakdown</b></summary>
 
 <br/>
 
 | Domain | Technologies &amp; Frameworks | Core Capabilities |
 | :--- | :--- | :--- |
-| **AI / Code** | `Python`, `Java` | LLM Orchestration, Prompt Engineering, Object-Oriented Design |
-| **Web / UI** | `TypeScript`, `HTML`, `Tailwind CSS` | High-Performance Interfaces, Component Architecture, Responsive Layouts |
-| **Data** | `MySQL`, `DBMS` | Relational Data Modeling, Schema Normalization, Query Optimization |
-| **Engineering** | `Git`, `DSA`, `SDLC` | Version Control, Algorithmic Optimization, Production Workflows |
+| **Languages (AI / Code)** | `Python`, `Java` | LLM Orchestration, Prompt Engineering, Object-Oriented Systems |
+| **Frameworks (Web / UI)** | `TypeScript`, `HTML`, `Tailwind CSS`, `React`, `Next.js` | High-Performance Interfaces, Component Architecture, Responsive Layouts |
+| **Databases (Data)** | `MySQL`, `DBMS`, `MongoDB`, `Redis` | Relational &amp; Document Data Modeling, Schema Normalization, In-Memory Caching |
+| **Tools (Engineering)** | `Git`, `DSA`, `SDLC` | Version Control, Algorithmic Optimization, Production Workflows |
 
 </details>
 
 ---
 
-### 🚀 Featured Projects
+### 🗂️ Featured Projects
 
 <!-- PROJECT 1 (HERO PROJECT): WASTE SEGREGATION -->
 <div align="center">
@@ -92,7 +92,7 @@ I'm **Rahul**, an **AI and Full-Stack Developer** who enjoys turning ideas into 
 <div align="right">
 
 <!-- Smart Project Actions: Waste Segregation -->
-[**`> SOURCE CODE`**](https://github.com/Rahulhas) &nbsp;•&nbsp; <sub><i>Live demo &amp; case study will unlock upon deployment</i></sub>
+[**`▶ View Code`**](https://github.com/Rahulhas) &nbsp;•&nbsp; <sub><i>Live demo &amp; case study will unlock upon deployment</i></sub>
 
 </div>
 
@@ -106,7 +106,7 @@ I'm **Rahul**, an **AI and Full-Stack Developer** who enjoys turning ideas into 
 <div align="right">
 
 <!-- Smart Project Actions: AI Debate Coach -->
-[**`> SOURCE CODE`**](https://github.com/Rahulhas) &nbsp;•&nbsp; <sub><i>Verified Stack: React · Vite · Tailwind · TypeScript · FastAPI · Python · Gemini 1.5 Flash · Uvicorn</i></sub>
+[**`▶ View Code`**](https://github.com/Rahulhas) &nbsp;•&nbsp; <sub><i>Verified Stack: React · Vite · Tailwind · TypeScript · FastAPI · Python · Gemini 1.5 Flash · Uvicorn</i></sub>
 
 </div>
 
@@ -119,7 +119,7 @@ I'm **Rahul**, an **AI and Full-Stack Developer** who enjoys turning ideas into 
 <div align="right">
 
 <!-- Smart Project Actions: Fake Job Posting Detector -->
-[**`> SOURCE CODE`**](https://github.com/Rahulhas) &nbsp;•&nbsp; <sub><i>Verified Stack: Next.js 14 · TypeScript · Tailwind · NextAuth · MongoDB · Redis · Gemini API</i></sub>
+[**`▶ View Code`**](https://github.com/Rahulhas) &nbsp;•&nbsp; <sub><i>Verified Stack: Next.js 14 · TypeScript · Tailwind · NextAuth · MongoDB · Redis · Gemini API</i></sub>
 
 </div>
 
@@ -153,14 +153,14 @@ I'm **Rahul**, an **AI and Full-Stack Developer** who enjoys turning ideas into 
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-Rahulhas-0A0F1D?style=for-the-badge&logo=github&logoColor=22D3EE)](https://github.com/Rahulhas)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rahul_Hasalkar-0A0F1D?style=for-the-badge&logo=linkedin&logoColor=38BDF8)](https://linkedin.com/in/rahulhasalkar)
-[![Email](https://img.shields.io/badge/Direct_Dispatch-rahulhasalkar.dev%40gmail.com-0A0F1D?style=for-the-badge&logo=gmail&logoColor=67E8F9)](mailto:rahulhasalkar.dev@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Rahulhas-261E18?style=for-the-badge&logo=github&logoColor=88A57B)](https://github.com/Rahulhas)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rahul_Hasalkar-261E18?style=for-the-badge&logo=linkedin&logoColor=88A57B)](https://linkedin.com/in/rahulhasalkar)
+[![Email](https://img.shields.io/badge/Direct_Dispatch-rahulhasalkar.dev%40gmail.com-261E18?style=for-the-badge&logo=gmail&logoColor=88A57B)](mailto:rahulhasalkar.dev@gmail.com)
 
 </div>
 
 <br/>
 
 <div align="center">
-  <sub><code>RAHULHAS // AUTONOMOUS PROFILE NODE // DEPLOYED WITH ANTIGRAVITY ENGINE</code></sub>
+  <sub><code>"Code Today • Build For Tomorrow • Keep Growing" 🌱</code></sub>
 </div>
