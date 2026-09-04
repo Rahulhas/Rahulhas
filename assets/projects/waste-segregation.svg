@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 400" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="wasteBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050914" />
+      <stop offset="60%" stop-color="#09142A" />
+      <stop offset="100%" stop-color="#040712" />
+    </linearGradient>
+
+    <linearGradient id="wasteGlass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E1B38" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#071224" stop-opacity="0.7" />
+    </linearGradient>
+
+    <radialGradient id="wasteCyanGlow" cx="80%" cy="30%" r="45%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#050914" stop-opacity="0" />
+    </radialGradient>
+
+    <pattern id="wasteGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#38BDF8" fill-opacity="0.06" />
+    </pattern>
+
+    <style>
+      .blink-waste {
+        animation: blinkW 2s infinite ease-in-out;
+      }
+      .scanner-beam {
+        animation: scanAnim 4s linear infinite alternate;
+      }
+      @keyframes blinkW {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.3; }
+      }
+      @keyframes scanAnim {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(140px); }
+      }
+    </style>
+  </defs>
+
+  <rect width="920" height="400" rx="16" fill="url(#wasteBg)" />
+  <rect width="920" height="400" rx="16" fill="url(#wasteCyanGlow)" />
+  <rect width="920" height="400" rx="16" fill="url(#wasteGrid)" />
+
+  <rect x="1" y="1" width="918" height="398" rx="15" fill="none" stroke="#22D3EE" stroke-width="1.2" stroke-opacity="0.3" />
+  <rect x="5" y="5" width="910" height="390" rx="11" fill="none" stroke="#38BDF8" stroke-width="0.5" stroke-opacity="0.1" />
+
+  <!-- Top Bar -->
+  <g transform="translate(32, 24)">
+    <rect width="125" height="22" rx="4" fill="#0284C7" fill-opacity="0.2" stroke="#22D3EE" stroke-width="0.6" stroke-opacity="0.5" />
+    <circle cx="10" cy="11" r="3" fill="#22D3EE" class="blink-waste" />
+    <text x="18" y="15" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">HERO_PROJECT // 01</text>
+    <text x="140" y="15" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="10" letter-spacing="1">SYSTEM_CLASS: COMPUTER_VISION / INTELLIGENT_AUTOMATION</text>
+    <text x="856" y="15" text-anchor="end" fill="#10B981" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">● CORE_OPERATIONAL</text>
+  </g>
+  <line x1="32" y1="52" x2="888" y2="52" stroke="#22D3EE" stroke-width="0.75" stroke-opacity="0.2" />
+
+  <!-- LEFT: Problem, Solution, Capabilities -->
+  <g transform="translate(32, 70)">
+    <text x="0" y="24" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800">Waste Segregation</text>
+    <text x="0" y="46" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600" letter-spacing="0.5">Automated AI-Driven Waste Classification &amp; Stream Sorting Pipeline</text>
+
+    <!-- Problem Box -->
+    <g transform="translate(0, 64)">
+      <rect width="490" height="52" rx="8" fill="url(#wasteGlass)" stroke="#38BDF8" stroke-width="0.5" stroke-opacity="0.2" />
+      <text x="14" y="20" fill="#EF4444" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">&gt; PROBLEM:</text>
+      <text x="14" y="38" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">Inefficient manual sorting leading to municipal recycling contamination.</text>
+    </g>
+
+    <!-- Solution Box -->
+    <g transform="translate(0, 126)">
+      <rect width="490" height="52" rx="8" fill="url(#wasteGlass)" stroke="#22D3EE" stroke-width="0.6" stroke-opacity="0.3" />
+      <text x="14" y="20" fill="#22D3EE" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">&gt; SOLUTION:</text>
+      <text x="14" y="38" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">AI vision pipeline with real-time multi-category material detection.</text>
+    </g>
+
+    <!-- Main Capabilities -->
+    <g transform="translate(0, 190)">
+      <text x="0" y="14" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="10" letter-spacing="1">CORE_CAPABILITIES:</text>
+      <g transform="translate(0, 24)">
+        <rect x="0" y="0" width="150" height="24" rx="4" fill="#0B132B" stroke="#22D3EE" stroke-width="0.5" stroke-opacity="0.4" />
+        <text x="8" y="16" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="10">Multi-Class Vision</text>
+
+        <rect x="158" y="0" width="155" height="24" rx="4" fill="#0B132B" stroke="#38BDF8" stroke-width="0.5" stroke-opacity="0.4" />
+        <text x="8" y="16" transform="translate(158, 0)" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="10">Low-Latency Infer</text>
+
+        <rect x="321" y="0" width="160" height="24" rx="4" fill="#0B132B" stroke="#67E8F9" stroke-width="0.5" stroke-opacity="0.4" />
+        <text x="8" y="16" transform="translate(321, 0)" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="10">Automated Routing</text>
+      </g>
+    </g>
+
+    <!-- Smart Project Actions Mockup -->
+    <g transform="translate(0, 260)">
+      <rect width="140" height="32" rx="6" fill="#0284C7" fill-opacity="0.25" stroke="#22D3EE" stroke-width="0.8" stroke-opacity="0.6" />
+      <text x="70" y="20" text-anchor="middle" fill="#FFFFFF" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">&gt; SOURCE REPO</text>
+
+      <rect x="150" y="0" width="140" height="32" rx="6" fill="#0F172A" stroke="#38BDF8" stroke-width="0.6" stroke-opacity="0.4" />
+      <text x="220" y="20" text-anchor="middle" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">&gt; LIVE DEMO</text>
+
+      <text x="310" y="21" fill="#475569" font-family="'JetBrains Mono', monospace" font-size="9.5" letter-spacing="1">// REPO CONFIG IN README</text>
+    </g>
+  </g>
+
+  <!-- RIGHT: AI Vision Radar &amp; Telemetry Screen -->
+  <g transform="translate(560, 75)">
+    <!-- Viewfinder Screen Container -->
+    <rect width="325" height="280" rx="14" fill="#070D1C" stroke="#22D3EE" stroke-width="1" stroke-opacity="0.4" />
+    <rect width="325" height="280" rx="14" fill="url(#wasteGlass)" />
+
+    <!-- Screen Header -->
+    <rect x="0" y="0" width="325" height="26" rx="14" fill="#0B1630" />
+    <text x="14" y="17" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700">INSPECTION_HUD // CAMERA_FEED_01</text>
+    <text x="310" y="17" text-anchor="end" fill="#22D3EE" font-family="'JetBrains Mono', monospace" font-size="9.5">FPS: 48</text>
+    <line x1="0" y1="26" x2="325" y2="26" stroke="#22D3EE" stroke-width="0.5" stroke-opacity="0.2" />
+
+    <!-- Viewfinder Bounding Box -->
+    <g transform="translate(25, 40)">
+      <rect width="275" height="150" rx="6" fill="#050B17" stroke="#38BDF8" stroke-width="0.5" stroke-opacity="0.3" />
+
+      <!-- Corner Crosshairs -->
+      <path d="M 6 20 L 6 6 L 20 6" fill="none" stroke="#22D3EE" stroke-width="1.5" />
+      <path d="M 269 20 L 269 6 L 255 6" fill="none" stroke="#22D3EE" stroke-width="1.5" />
+      <path d="M 6 130 L 6 144 L 20 144" fill="none" stroke="#22D3EE" stroke-width="1.5" />
+      <path d="M 269 130 L 269 144 L 255 144" fill="none" stroke="#22D3EE" stroke-width="1.5" />
+
+      <!-- Center Detection Target Box -->
+      <rect x="60" y="28" width="155" height="92" rx="4" fill="#22D3EE" fill-opacity="0.08" stroke="#22D3EE" stroke-width="1" stroke-dasharray="4 4" />
+      <!-- Tag on target -->
+      <rect x="60" y="14" width="130" height="16" rx="2" fill="#22D3EE" />
+      <text x="65" y="26" fill="#060A14" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="800">RECYCLABLE [CONF: 98.4%]</text>
+
+      <!-- Center Cross -->
+      <line x1="137" y1="70" x2="137" y2="78" stroke="#22D3EE" stroke-width="1.5" />
+      <line x1="133" y1="74" x2="141" y2="74" stroke="#22D3EE" stroke-width="1.5" />
+
+      <!-- Scanning Line Beam -->
+      <line x1="10" y1="8" x2="265" y2="8" stroke="#38BDF8" stroke-width="1.2" stroke-opacity="0.7" class="scanner-beam" />
+    </g>
+
+    <!-- Telemetry Stats Breakdown Below Viewfinder -->
+    <g transform="translate(25, 205)">
+      <!-- Bar 1: Recyclable -->
+      <text x="0" y="12" fill="#67E8F9" font-family="'JetBrains Mono', monospace" font-size="9">RECYCLABLE</text>
+      <rect x="80" y="4" width="140" height="8" rx="2" fill="#1E293B" />
+      <rect x="80" y="4" width="132" height="8" rx="2" fill="#22D3EE" />
+      <text x="230" y="12" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700">98.4%</text>
+
+      <!-- Bar 2: Organic -->
+      <text x="0" y="30" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="9">ORGANIC</text>
+      <rect x="80" y="22" width="140" height="8" rx="2" fill="#1E293B" />
+      <rect x="80" y="22" width="16" height="8" rx="2" fill="#10B981" />
+      <text x="230" y="30" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="9">1.2%</text>
+
+      <!-- Bar 3: Hazardous -->
+      <text x="0" y="48" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="9">HAZARDOUS</text>
+      <rect x="80" y="40" width="140" height="8" rx="2" fill="#1E293B" />
+      <rect x="80" y="40" width="6" height="8" rx="2" fill="#EF4444" />
+      <text x="230" y="48" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="9">0.4%</text>
+    </g>
+  </g>
+
+  <!-- Outer Reticles -->
+  <path d="M 2 20 L 2 2 L 20 2" fill="none" stroke="#22D3EE" stroke-width="2" />
+  <path d="M 918 20 L 918 2 L 900 2" fill="none" stroke="#22D3EE" stroke-width="2" />
+  <path d="M 2 380 L 2 398 L 20 398" fill="none" stroke="#22D3EE" stroke-width="2" />
+  <path d="M 918 380 L 918 398 L 900 398" fill="none" stroke="#22D3EE" stroke-width="2" />
+</svg>

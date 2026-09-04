@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 320" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="jobBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060A16" />
+      <stop offset="60%" stop-color="#0B1530" />
+      <stop offset="100%" stop-color="#050813" />
+    </linearGradient>
+
+    <linearGradient id="jobGlass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E1C38" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#081124" stop-opacity="0.7" />
+    </linearGradient>
+
+    <radialGradient id="jobGlow" cx="85%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.14" />
+      <stop offset="100%" stop-color="#060A16" stop-opacity="0" />
+    </radialGradient>
+
+    <pattern id="jobGrid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#38BDF8" fill-opacity="0.06" />
+    </pattern>
+
+    <style>
+      .blink-job {
+        animation: blinkJ 2.5s infinite ease-in-out;
+      }
+      @keyframes blinkJ {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.3; }
+      }
+    </style>
+  </defs>
+
+  <rect width="860" height="320" rx="14" fill="url(#jobBg)" />
+  <rect width="860" height="320" rx="14" fill="url(#jobGlow)" />
+  <rect width="860" height="320" rx="14" fill="url(#jobGrid)" />
+
+  <rect x="1" y="1" width="858" height="318" rx="13" fill="none" stroke="#22D3EE" stroke-width="1" stroke-opacity="0.25" />
+
+  <!-- Header -->
+  <g transform="translate(28, 20)">
+    <rect width="135" height="22" rx="4" fill="#0284C7" fill-opacity="0.2" stroke="#22D3EE" stroke-width="0.6" stroke-opacity="0.5" />
+    <circle cx="10" cy="11" r="3" fill="#22D3EE" class="blink-job" />
+    <text x="18" y="15" fill="#22D3EE" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">SUPPORTING_PROJECT // 03</text>
+    <text x="150" y="15" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="10" letter-spacing="1">SECURITY_ANALYSIS / RECRUITMENT_INTEL</text>
+    <text x="804" y="15" text-anchor="end" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="10">● FRAUD_GUARD_ACTIVE</text>
+  </g>
+  <line x1="28" y1="46" x2="832" y2="46" stroke="#22D3EE" stroke-width="0.6" stroke-opacity="0.2" />
+
+  <!-- LEFT: Title, Description, Verified Stack -->
+  <g transform="translate(28, 62)">
+    <text x="0" y="22" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800">Fake Job Posting Detector</text>
+    <text x="0" y="42" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">AI recruitment security intelligence service detecting fraudulent listings and scam red-flags.</text>
+
+    <!-- Verified Tech Stack Badges -->
+    <g transform="translate(0, 58)">
+      <text x="0" y="12" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="9.5" letter-spacing="1">VERIFIED_STACK:</text>
+      <g transform="translate(0, 20)">
+        <!-- Row 1 -->
+        <rect x="0" y="0" width="85" height="22" rx="4" fill="#0B132B" stroke="#22D3EE" stroke-width="0.5" stroke-opacity="0.4" />
+        <text x="8" y="15" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="10">Next.js 14</text>
+
+        <rect x="91" y="0" width="85" height="22" rx="4" fill="#0B132B" stroke="#38BDF8" stroke-width="0.5" stroke-opacity="0.4" />
+        <text x="8" y="15" transform="translate(91, 0)" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="10">TypeScript</text>
+
+        <rect x="182" y="0" width="95" height="22" rx="4" fill="#0B132B" stroke="#22D3EE" stroke-width="0.5" stroke-opacity="0.4" />
+        <text x="8" y="15" transform="translate(182, 0)" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="10">Tailwind CSS</text>
+
+        <rect x="283" y="0" width="75" height="22" rx="4" fill="#0B132B" stroke="#38BDF8" stroke-width="0.5" stroke-opacity="0.4" />
+        <text x="8" y="15" transform="translate(283, 0)" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="10">NextAuth</text>
+
+        <!-- Row 2 -->
+        <rect x="0" y="28" width="75" height="22" rx="4" fill="#0B132B" stroke="#22D3EE" stroke-width="0.5" stroke-opacity="0.4" />
+        <text x="8" y="15" transform="translate(0, 28)" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="10">MongoDB</text>
+
+        <rect x="81" y="28" width="60" height="22" rx="4" fill="#0B132B" stroke="#38BDF8" stroke-width="0.5" stroke-opacity="0.4" />
+        <text x="8" y="15" transform="translate(81, 28)" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="10">Redis</text>
+
+        <rect x="147" y="28" width="115" height="22" rx="4" fill="#0B132B" stroke="#22D3EE" stroke-width="0.5" stroke-opacity="0.5" />
+        <text x="8" y="15" transform="translate(147, 28)" fill="#67E8F9" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">Gemini API</text>
+      </g>
+    </g>
+
+    <!-- Action Buttons -->
+    <g transform="translate(0, 150)">
+      <rect width="115" height="28" rx="5" fill="#0284C7" fill-opacity="0.2" stroke="#22D3EE" stroke-width="0.8" stroke-opacity="0.5" />
+      <text x="57" y="18" text-anchor="middle" fill="#FFFFFF" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="600">&gt; SOURCE</text>
+
+      <rect x="125" y="0" width="115" height="28" rx="5" fill="#0F172A" stroke="#38BDF8" stroke-width="0.6" stroke-opacity="0.3" />
+      <text x="182" y="18" text-anchor="middle" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="600">&gt; DEMO</text>
+    </g>
+  </g>
+
+  <!-- RIGHT: Security Risk Telemetry HUD -->
+  <g transform="translate(535, 62)">
+    <rect width="295" height="225" rx="10" fill="url(#jobGlass)" stroke="#22D3EE" stroke-width="0.6" stroke-opacity="0.3" />
+    <rect x="0" y="0" width="295" height="24" rx="10" fill="#0E1B38" />
+    <text x="12" y="16" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700">RISK_DETECTION // TELEMETRY</text>
+    <line x1="0" y1="24" x2="295" y2="24" stroke="#22D3EE" stroke-width="0.5" stroke-opacity="0.2" />
+
+    <!-- Risk Gauge Box -->
+    <g transform="translate(16, 36)">
+      <rect width="260" height="52" rx="6" fill="#070D1A" stroke="#EF4444" stroke-width="0.6" stroke-opacity="0.4" />
+      <text x="14" y="20" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="8.5">FRAUD_RISK_INDEX</text>
+      <text x="14" y="38" fill="#EF4444" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="800">94.8% RED_FLAG</text>
+      <rect x="160" y="18" width="86" height="18" rx="4" fill="#EF4444" fill-opacity="0.15" stroke="#EF4444" stroke-width="0.5" />
+      <text x="168" y="31" fill="#F87171" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700">SUSPICIOUS</text>
+    </g>
+
+    <!-- Lexical Analysis -->
+    <g transform="translate(16, 100)">
+      <text x="0" y="10" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="9.5">Lexical Anomaly Score</text>
+      <text x="260" y="10" text-anchor="end" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700">88.5%</text>
+      <rect x="0" y="16" width="260" height="5" rx="2" fill="#1E293B" />
+      <rect x="0" y="16" width="230" height="5" rx="2" fill="#38BDF8" />
+    </g>
+
+    <!-- Persistence & Caching -->
+    <g transform="translate(16, 134)">
+      <text x="0" y="10" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="9.5">Redis Rate Limiting</text>
+      <text x="260" y="10" text-anchor="end" fill="#10B981" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700">ENFORCED</text>
+      <rect x="0" y="16" width="260" height="5" rx="2" fill="#1E293B" />
+      <rect x="0" y="16" width="260" height="5" rx="2" fill="#10B981" />
+    </g>
+
+    <!-- Summary Pill -->
+    <g transform="translate(16, 170)">
+      <rect width="260" height="28" rx="4" fill="#0B132B" stroke="#22D3EE" stroke-width="0.5" stroke-opacity="0.4" />
+      <text x="12" y="18" fill="#67E8F9" font-family="'JetBrains Mono', monospace" font-size="9">&gt; PIPELINE: NEXTAUTH + MONGODB + REDIS</text>
+    </g>
+  </g>
+
+  <!-- Corner Brackets -->
+  <path d="M 2 16 L 2 2 L 16 2" fill="none" stroke="#22D3EE" stroke-width="1.8" />
+  <path d="M 858 16 L 858 2 L 844 2" fill="none" stroke="#22D3EE" stroke-width="1.8" />
+  <path d="M 2 304 L 2 318 L 16 318" fill="none" stroke="#22D3EE" stroke-width="1.8" />
+  <path d="M 858 304 L 858 318 L 844 318" fill="none" stroke="#22D3EE" stroke-width="1.8" />
+</svg>

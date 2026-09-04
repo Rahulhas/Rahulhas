@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 260" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="eduBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060A16" />
+      <stop offset="60%" stop-color="#0A132B" />
+      <stop offset="100%" stop-color="#050813" />
+    </linearGradient>
+
+    <linearGradient id="eduGlass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F1D3B" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#081124" stop-opacity="0.75" />
+    </linearGradient>
+
+    <radialGradient id="eduGlow" cx="50%" cy="10%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#060A16" stop-opacity="0" />
+    </radialGradient>
+
+    <pattern id="eduGridPattern" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#38BDF8" fill-opacity="0.06" />
+    </pattern>
+  </defs>
+
+  <rect width="860" height="260" rx="16" fill="url(#eduBg)" />
+  <rect width="860" height="260" rx="16" fill="url(#eduGlow)" />
+  <rect width="860" height="260" rx="16" fill="url(#eduGridPattern)" />
+
+  <rect x="1" y="1" width="858" height="258" rx="15" fill="none" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.25" />
+
+  <!-- Terminal Header Bar -->
+  <g transform="translate(24, 20)">
+    <circle cx="6" cy="6" r="4.5" fill="#EF4444" fill-opacity="0.7" />
+    <circle cx="24" cy="6" r="4.5" fill="#F59E0B" fill-opacity="0.7" />
+    <circle cx="42" cy="6" r="4.5" fill="#10B981" fill-opacity="0.8" />
+    <text x="64" y="10" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" letter-spacing="1.5">ACADEMIC_COMMAND_PANEL // CREDENTIALS</text>
+    <text x="812" y="10" text-anchor="end" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="10.5" letter-spacing="1">STATUS: ENROLLED &amp; VERIFIED</text>
+  </g>
+  <line x1="24" y1="44" x2="836" y2="44" stroke="#38BDF8" stroke-width="0.75" stroke-opacity="0.2" />
+
+  <!-- Dual Degree Cards Container -->
+  <!-- Card 1: MCA -->
+  <g transform="translate(32, 60)">
+    <rect width="380" height="175" rx="12" fill="url(#eduGlass)" stroke="#22D3EE" stroke-width="0.8" stroke-opacity="0.4" />
+
+    <!-- Degree Pill -->
+    <rect x="18" y="16" width="60" height="24" rx="4" fill="#0284C7" fill-opacity="0.2" stroke="#22D3EE" stroke-width="0.8" stroke-opacity="0.6" />
+    <text x="48" y="32" text-anchor="middle" fill="#22D3EE" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="800">MCA</text>
+
+    <text x="88" y="32" fill="#34D399" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">● CURRENT</text>
+
+    <!-- Degree Title -->
+    <text x="18" y="68" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700">Master Of Computer Application</text>
+
+    <!-- University -->
+    <text x="18" y="94" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">KLE Technological University, Hubballi</text>
+
+    <line x1="18" y1="112" x2="362" y2="112" stroke="#1E293B" stroke-width="1" />
+
+    <!-- Timeline & Location -->
+    <g transform="translate(18, 128)">
+      <text x="0" y="12" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="10">TIMELINE:</text>
+      <text x="75" y="12" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">2025 — 2027</text>
+
+      <text x="0" y="32" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="10">FOCUS:</text>
+      <text x="75" y="32" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="11">AI Systems · Core CS</text>
+    </g>
+  </g>
+
+  <!-- Card 2: BCA -->
+  <g transform="translate(448, 60)">
+    <rect width="380" height="175" rx="12" fill="url(#eduGlass)" stroke="#38BDF8" stroke-width="0.8" stroke-opacity="0.35" />
+
+    <!-- Degree Pill -->
+    <rect x="18" y="16" width="60" height="24" rx="4" fill="#0284C7" fill-opacity="0.15" stroke="#38BDF8" stroke-width="0.8" stroke-opacity="0.5" />
+    <text x="48" y="32" text-anchor="middle" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="800">BCA</text>
+
+    <text x="88" y="32" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">COMPLETED</text>
+
+    <!-- Degree Title -->
+    <text x="18" y="68" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700">Bachelor Of Computer Application</text>
+
+    <!-- University / College -->
+    <text x="18" y="94" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">BVVS Basaveshwar Science College, Bagalkot</text>
+
+    <line x1="18" y1="112" x2="362" y2="112" stroke="#1E293B" stroke-width="1" />
+
+    <!-- Timeline & Location -->
+    <g transform="translate(18, 128)">
+      <text x="0" y="12" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="10">TIMELINE:</text>
+      <text x="75" y="12" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">2022 — 2025</text>
+
+      <text x="0" y="32" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="10">FOCUS:</text>
+      <text x="75" y="32" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="11">CS Fundamentals · Web</text>
+    </g>
+  </g>
+
+  <!-- Corner Brackets -->
+  <path d="M 2 20 L 2 2 L 20 2" fill="none" stroke="#38BDF8" stroke-width="2" />
+  <path d="M 858 20 L 858 2 L 840 2" fill="none" stroke="#38BDF8" stroke-width="2" />
+  <path d="M 2 240 L 2 258 L 20 258" fill="none" stroke="#38BDF8" stroke-width="2" />
+  <path d="M 858 240 L 858 258 L 840 258" fill="none" stroke="#38BDF8" stroke-width="2" />
+</svg>
