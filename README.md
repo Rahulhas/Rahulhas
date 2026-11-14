@@ -155,7 +155,7 @@ I'm **Rahul**, an **AI and Full-Stack Developer** who enjoys turning ideas into 
 
 [![GitHub](https://img.shields.io/badge/GitHub-Rahulhas-261E18?style=for-the-badge&logo=github&logoColor=88A57B)](https://github.com/Rahulhas)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Rahul_Hasalkar-261E18?style=for-the-badge&logo=linkedin&logoColor=88A57B)](https://linkedin.com/in/rahulhasalkar)
-[![Email](https://img.shields.io/badge/Direct_Dispatch-rahulhasalkar.dev%40gmail.com-261E18?style=for-the-badge&logo=gmail&logoColor=88A57B)](mailto:rahulhasalkar.dev@gmail.com)
+[![Email](https://img.shields.io/badge/Direct_Dispatch-rahulhasalkar.dev%40gmail.com-261E18?style=for-the-badge&logo=gmail&logoColor=88A57B)](mailto:rahulhasalkar001@gmail.com)
 
 </div>
 
